@@ -1,0 +1,16 @@
+Polymorphic Association
+ When you have one model that could belong to any one of a set of models.
+ Comments is the classic example.
+ A comments could belong to a book, an event or a photo.
+
+Goals:
+
+* Understand overview of polymorphic relationships.
+* How to set up model relationships.
+  * comment.rb: "belongs_to :commentable, polymorphic: true"
+  * book.rb: "has_many :comments, as: :commentable"
+* How to set up the migration file.
+  * commentable_id:integer, commentable_type:string
+* How to use the active record relationship commands.
+  * book.comments => finds all comments for a book
+  * comment.commentable => to find model type for a comment
