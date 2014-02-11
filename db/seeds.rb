@@ -11,6 +11,10 @@ Book.create([
         { title: "Huck Finn" },
         { title: "Dirty Book"}])
 
+Video.create([
+        { title: "Tommy Boy"},
+        { title: "Jaws"}])
+
 Photo.create([
           { caption: "Picture of my cat." },
           { caption: "Picture of my dog." }])
@@ -26,6 +30,9 @@ Book.find(2).comments.create(content: "I love Twain.")
 Book.find(2).comments.create(content: "Huck is one smart guy.")
 Book.find(3).comments.create(content: "Comment with bad words.")
 Book.find(3).comments.create(content: "Comment with really bad words.")
+
+Video.find(1).comments.create(content: "Tommy Boy Rocks!")
+Video.find(2).comments.create(content: "Jaws is sooo fakey, but I can't get it out of my head.")
 
 
 # Photo.find(1).comments.create(content: "Isn't my cat cute.")
