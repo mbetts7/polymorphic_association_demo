@@ -26,7 +26,7 @@ Check out seeded models
 * $ c.commentable
 
 ## Exercise:
-* fill in model relationships for "photos" and "events"
-* create controllers for "photos" and "events"
-* create view pages for "photos" and "events"
+* fill in model relationship for "photos"
+* create controller for "photos"
+* create view pages for "photos"
 
