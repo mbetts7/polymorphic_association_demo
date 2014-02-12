@@ -30,9 +30,12 @@ Book.find(3).comments.create(content: "Comment with really bad words.")
 Video.find(1).comments.create(content: "Tommy Boy Rocks!")
 Video.find(2).comments.create(content: "Jaws is sooo fakey, but I can't get it out of my head.")
 
-
-# Photo.find(1).comments.create(content: "Isn't my cat cute.")
-# Photo.find(2).comments.create(content: "My dog smells.")
+Photo.find(1).comments.create(content: "Ahab is one crazy dude!!")
+Photo.find(1).comments.create(content: "The white whale is spooky.")
+Photo.find(2).comments.create(content: "I love Twain.")
+Photo.find(2).comments.create(content: "Huck is one smart guy.")
+Photo.find(1).comments.create(content: "Isn't my cat cute.")
+Photo.find(2).comments.create(content: "My dog smells.")
 
 
 

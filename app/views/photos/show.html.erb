@@ -1,0 +1,7 @@
+<h1><%=  @photo.caption %></h1>
+
+<% @photo_comments.each do |photo| %>
+
+  <h2><li><%= photo.content %></li></h2>
+
+<% end %>
