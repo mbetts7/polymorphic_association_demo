@@ -20,10 +20,6 @@ Photo.create([
           { caption: "Picture of my dog." }])
 
 
-Event.create([
-          { name: "Concert in the Park" },
-          { name: "Opening Day on the Bay" }])
-
 Book.find(1).comments.create(content: "Ahab is one crazy dude!!")
 Book.find(1).comments.create(content: "The white whale is spooky.")
 Book.find(2).comments.create(content: "I love Twain.")
@@ -38,6 +34,5 @@ Video.find(2).comments.create(content: "Jaws is sooo fakey, but I can't get it o
 # Photo.find(1).comments.create(content: "Isn't my cat cute.")
 # Photo.find(2).comments.create(content: "My dog smells.")
 
-# Event.find(1).comments.create(content: "Which park?")
-# Event.find(2).comments.create(content: "When is opening day on the bay?")
+
 

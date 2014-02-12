@@ -29,12 +29,6 @@ ActiveRecord::Schema.define(version: 20140211162059) do
 
   add_index "comments", ["commentable_id", "commentable_type"], name: "index_comments_on_commentable_id_and_commentable_type"
 
-  create_table "events", force: true do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "photos", force: true do |t|
     t.string   "caption"
     t.datetime "created_at"
